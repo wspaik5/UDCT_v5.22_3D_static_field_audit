@@ -1,0 +1,41 @@
+{
+  "description": "Locked favorable-geometry sampled contrasts for UDCT v5.22 Table 2",
+  "statistic": "C_samp = [Sigma_eff(-d,0) + Sigma_eff(+d,0)] / [2 Sigma_eff(0,0)]",
+  "statistic_is_global_argmax": false,
+  "geometry": {
+    "total_mass_msun": 300000000000000.0,
+    "gas_mass_fraction": 0.85,
+    "gas_plummer_scale_kpc": 500.0,
+    "each_galaxy_mass_fraction": 0.075,
+    "galaxy_plummer_scale_kpc": 70.0,
+    "galaxy_coordinates_kpc": [-300.0, 300.0]
+  },
+  "smoothing_kpc": [50, 100, 150, 250],
+  "sampled_contrast": {
+    "Newtonian": [2.347, 1.328, 0.969, 0.815],
+    "QUMOND": [1.902, 1.210, 0.945, 0.825],
+    "AQUAL": [1.712, 1.160, 0.937, 0.843]
+  },
+  "headline_100_kpc": {
+    "Newtonian": 1.328,
+    "QUMOND": 1.210,
+    "AQUAL": 1.160
+  },
+  "all_below_one_at_150_kpc": true,
+  "absolute_reproduction_tolerance": 0.02,
+  "grid_disclosure": {
+    "Newtonian_and_QUMOND": {
+      "N": 128,
+      "box_kpc": 3000.0,
+      "dx_kpc": 23.4375,
+      "boundary": "periodic FFT Poisson"
+    },
+    "AQUAL": {
+      "N": 96,
+      "box_kpc": 3000.0,
+      "dx_kpc": 31.25,
+      "boundary": "isolated monopole"
+    }
+  },
+  "continuum_convergence_claimed": false
+}

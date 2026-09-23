@@ -1,0 +1,17 @@
+{
+  "description": "QUMOND sampled-contrast matrix recomputed by v522_audit_recompute.py",
+  "statistic": "C_samp, not global argmax",
+  "rows": [
+    {"geometry": "baseline", "N": 96, "box_kpc": 3000.0, "dx_kpc": 31.25, "C_samp_50": 0.860204, "C_samp_100": 0.542844, "C_samp_150": 0.485460, "C_samp_250": 0.541011},
+    {"geometry": "baseline", "N": 128, "box_kpc": 3000.0, "dx_kpc": 23.4375, "C_samp_50": 0.856727, "C_samp_100": 0.545232, "C_samp_150": 0.491385, "C_samp_250": 0.550278},
+    {"geometry": "baseline", "N": 128, "box_kpc": 4500.0, "dx_kpc": 35.15625, "C_samp_50": 0.870697, "C_samp_100": 0.571769, "C_samp_150": 0.526251, "C_samp_250": 0.594696},
+    {"geometry": "baseline", "N": 128, "box_kpc": 6000.0, "dx_kpc": 46.875, "C_samp_50": 0.867061, "C_samp_100": 0.575638, "C_samp_150": 0.526301, "C_samp_250": 0.590118},
+    {"geometry": "baseline", "N": 160, "box_kpc": 6000.0, "dx_kpc": 37.5, "C_samp_50": 0.871027, "C_samp_100": 0.584709, "C_samp_150": 0.544850, "C_samp_250": 0.617942},
+    {"geometry": "favorable", "N": 96, "box_kpc": 3000.0, "dx_kpc": 31.25, "C_samp_50": 1.870565, "C_samp_100": 1.195328, "C_samp_150": 0.933391, "C_samp_250": 0.816019},
+    {"geometry": "favorable", "N": 128, "box_kpc": 3000.0, "dx_kpc": 23.4375, "C_samp_50": 1.901647, "C_samp_100": 1.209965, "C_samp_150": 0.944600, "C_samp_250": 0.825053},
+    {"geometry": "favorable", "N": 128, "box_kpc": 4500.0, "dx_kpc": 35.15625, "C_samp_50": 1.804013, "C_samp_100": 1.179454, "C_samp_150": 0.936960, "C_samp_250": 0.832404},
+    {"geometry": "favorable", "N": 128, "box_kpc": 6000.0, "dx_kpc": 46.875, "C_samp_50": 1.838119, "C_samp_100": 1.223083, "C_samp_150": 0.981928, "C_samp_250": 0.874521},
+    {"geometry": "favorable", "N": 160, "box_kpc": 6000.0, "dx_kpc": 37.5, "C_samp_50": 1.846012, "C_samp_100": 1.204423, "C_samp_150": 0.961973, "C_samp_250": 0.857095}
+  ],
+  "continuum_convergence_claimed": false
+}
